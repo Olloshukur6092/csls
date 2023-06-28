@@ -22,7 +22,10 @@ use Illuminate\Support\Facades\Route;
 //     return view('index');
 // });
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::controller(HomeController::class)->group(function () {
+    Route::get('/', 'index')->name('home');
+    Route::get('/lang', 'lang')->name('lang');
+});
 
 Route::get('/service', [ServiceController::class, 'index'])->name('service');
 
