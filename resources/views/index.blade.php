@@ -44,9 +44,9 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="{{route('home')}}" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/team/CslsLogo.jpg" alt="">
         <h1 class="d-flex align-items-center">Csls</h1>
       </a>
 
@@ -117,7 +117,7 @@
 
         <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/why-us-bg.jpg')"></div>
+          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/team/Abbos.jpg')"></div>
           <div class="col-xl-7 slides  position-relative">
 
             <div class="slides-1 swiper">
@@ -451,11 +451,11 @@
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+                Toshkent sh, <br>
+                Mirzo-Ulug'bek tumani,<br>
+                Xuroson ko'chasi 35/14 <br><br>
+              <strong>Phone:</strong> +998 94 132 52 00<br>
+              <strong>Email:</strong> info@csls.uz<br>
             </p>
 
           </div>
@@ -467,14 +467,14 @@
     <div class="footer-legal">
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>Csls</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>Infinity</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/Csls-bootstrap-business-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href="https://www.infinityinnovation.uz/">Infinityinnovation</a>
         </div>
       </div>
     </div>

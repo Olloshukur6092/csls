@@ -13,9 +13,9 @@ Toshkent sh, Mirzo-Ulug'bek tumani, Xuroson ko'chasi 35/14
 
     <h1>Phone Number</h1>
 
-(94) 132 52 00
+    (94) 132 52 00
 
-<h1>Email</h1>
+    <h1>Email</h1>
 
 consultingservices@gmail.com
 </div>
