@@ -56,10 +56,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
+          <li><a href="{{route('about')}}">About</a></li>
+          <li><a href="{{route('service')}}">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
+          <li><a href="{{route('team')}}">Team</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
@@ -78,7 +78,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="{{route('contact')}}">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -92,10 +92,10 @@
         <div class="col-xl-4">
           <h2 data-aos="fade-up">Csls</h2>
           <blockquote data-aos="fade-up" data-aos-delay="100">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis cum recusandae eum laboriosam voluptatem repudiandae odio, vel exercitationem officiis provident minima. </p>
+            <p>Malakali yuristlar xizmatidan onlayn foydalaning. Xizmatlar kafolatlanadi. Hoziroq savol bering, O'zbekistonning eng yaxshi yurist va advokatlari javob beradilar.</p>
           </blockquote>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#about" class="btn-get-started">Get Started</a>
+            <a href="{{Route('about')}}" class="btn-get-started">Boshlash</a>
             <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
 
