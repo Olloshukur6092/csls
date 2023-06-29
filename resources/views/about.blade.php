@@ -121,7 +121,7 @@ About page
           <div class="col-lg-6 text-center">
             <h3>Biroz qochish yoki xozr qo'ng'iroq qilish</h3>
             <p>Bizning expertlar bilan xoziroq bog'laning.</p>
-            <a class="cta-btn" href="#">Harakatga chaqirish</a>
+            <a class="cta-btn" href="https://web.telegram.org/a/#1816929200">Harakatga chaqirish</a>
           </div>
         </div>
 

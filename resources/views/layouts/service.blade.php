@@ -3,9 +3,82 @@
 
 @endsection
 
+@section('content')
+
+
+        <!-- ======= Our Services Section ======= -->
+        <section id="services-list" class="services-list">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>{{__('lang.bizning_xizmatlar')}}</h2>
+
+                </div>
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
+                        <div>
+                            <h4 class="title"><a href="#" class="stretched-link">Firma ochish ruyhatdan utkazish ustav nizom yaratish</a></h4>
+                            <p class="description">
+                                Korhonalardag ichki hujjatlarni tartibga solish
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
+                        <div>
+                            <h4 class="title"><a href="#" class="stretched-link">Patentlash tovar belgisini ro'yxatdan o'tkazish</a></h4>
+                            <p class="description">Ariza, shikoyat xati, davo arizasi, apellatsiya, kassasiya yozib berish.
+                            </p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
+                        <div>
+                            <h4 class="title"><a href="#" class="stretched-link">Shartnomalar tuzib berish konsultatsiya berish</a></h4>
+                            <p class="description">-Deklarantlik</p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
+                        <div>
+                            <h4 class="title"><a href="#" class="stretched-link">Qarz undirish xizmatlari</a></h4>
+                            <p class="description">Yuristlarimiz xizmati</p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                        <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
+                        <div>
+                            <h4 class="title"><a href="#" class="stretched-link">Doimiy huquqiy ximoyalash xizmatlari.</a></h4>
+                            <p class="description">Korhonalardag ichki hujjatlarni tartibga solish</p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+                        <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week" style="color: #1335f5;"></i>
+                        </div>
+                        <div>
+                            <h4 class="title"><a href="#" class="stretched-link">Xujjatlarni Huquqiy ekspertizadan o'tkazish</a></h4>
+                            <p class="description"></p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                </div>
+
+            </div>
+        </section><!-- End Our Services Section -->
+
+@endsection
  <!-- ======= Our Services Section ======= -->
- <section id="services-list" class="services-list">
-    <div class="container" data-aos="fade-up">
+ {{-- <section id="services-list" class="services-list"> --}}
+    {{-- <div class="container" data-aos="fade-up">
 
       <div class="section-header">
         <h2>Our Services</h2>
@@ -65,5 +138,5 @@
 
       </div>
 
-    </div>
-  </section><!-- End Our Services Section -->
+    </div> --}}
+  {{-- </section><!-- End Our Services Section --> --}}
