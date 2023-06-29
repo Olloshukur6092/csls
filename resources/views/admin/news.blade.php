@@ -1,9 +1,9 @@
 @extends('layouts.admin_app')
 @section('title')
-    Admin | Dashboard
+    Admin | News
 @endsection
 @section('content')
     <div class="container">
-        <h1>Dashboard</h1>
+        <h1>Admin News</h1>
     </div>
 @endsection

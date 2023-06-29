@@ -1,0 +1,9 @@
+.navbar {
+    height: 80px;
+}
+.navbar .navbar-brand {
+    font-size: 30px;
+}
+.navbar ul li a {
+    font-size: 20px;
+}
