@@ -51,7 +51,7 @@ About page
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Why Choose Us</h2>
+          <h2>{{__('lang.Why_Choose_Us')}}</h2>
 
         </div>
 
