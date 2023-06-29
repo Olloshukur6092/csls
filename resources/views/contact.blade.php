@@ -29,7 +29,7 @@
                         <div class="info-item d-flex">
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
-                                <h4>Location:</h4>
+                                <h4>{{__('lang.location')}}:</h4>
                                 <p>Toshkent sh, Mirzo-Ulug'bek tumani, Xuroson ko'chasi 35/14</p>
                             </div>
                         </div><!-- End Info Item -->
@@ -38,7 +38,7 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h4>Email:</h4>
-                                <p>consultingservices@gmail.com</p>
+                                <p>info@csls.uz</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -49,11 +49,8 @@
                                 <p>(94) 132 52 00</p>
                             </div>
                         </div><!-- End Info Item -->
-
                     </div>
-
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-
                         <form action="{{ route('sendMessage') }}" method="post" role="form" class="php-email-form">
                             @csrf
                             <div class="row">
@@ -81,7 +78,7 @@
                         </form>
 
                     </div><!-- End Contact Form -->
-
+                
                 </div>
 
             </div>

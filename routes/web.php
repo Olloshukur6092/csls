@@ -4,6 +4,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
@@ -18,11 +19,6 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-// Route::get('/', function () {
-//     return view('index');
-// });
-
 Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'index')->name('home');
     Route::get('/lang', 'lang')->name('lang');
@@ -45,3 +41,5 @@ Route::controller(AuthController::class)->group(function () {
 Route::get('admin/dashboard', function () {
     return view('admin.dashboard');
 });
+
+Route::get('/news', [NewsController::class, 'index'])->name('news');

@@ -1,3 +1,8 @@
+@extends('layouts.app')
+@section('title')
+
+@endsection
+
  <!-- ======= Our Services Section ======= -->
  <section id="services-list" class="services-list">
     <div class="container" data-aos="fade-up">

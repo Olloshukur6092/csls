@@ -8,7 +8,7 @@
             <a href="{{ route('home') }}" class="logo d-flex align-items-center">
               <span>Csls</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>Malakali yuristlar xizmatidan onlayn foydalaning. Xizmatlar kafolatlanadi. Hoziroq savol bering, O'zbekistonning eng yaxshi yurist va advokatlari javob beradilar.</p>
             <div class="social-links d-flex  mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -42,11 +42,11 @@
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+                Toshkent sh,  <br>
+                Mirzo-Ulug'bek tumani,<br>
+                Xuroson ko'chasi 35/14 <br><br>
+              <strong>Phone:</strong> +998 94 132 52 00<br>
+              <strong>Email:</strong> info@csls.uz<br>
             </p>
 
           </div>
@@ -58,14 +58,14 @@
     <div class="footer-legal">
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>Csls</span></strong>. All Rights Reserved
+           <strong><span>Consulting services & legal support</span></strong>.&copy;2023, {{__('lang.Barcha_huquqlar_himoyalangan')}}
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/Csls-bootstrap-business-template/ -->
-          Designed by <a href="https://infinityinnovation.uz/">Infinityinnovation</a>
+         {{__('lang.Website_developed_by')}}:  <a href="https://infinityinnovation.uz/">Infinityinnovation</a>
         </div>
       </div>
     </div>

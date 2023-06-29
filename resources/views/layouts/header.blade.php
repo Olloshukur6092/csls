@@ -2,10 +2,14 @@
  <header id="header" class="header d-flex align-items-center fixed-top">
      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-         <a href="index.html" class="logo d-flex align-items-center">
+         <a href="{{route('home')}}" class="logo d-flex align-items-center">
              <!-- Uncomment the line below if you also wish to use an image logo -->
+{{-- <<<<<<< HEAD --}}
+             {{-- <img src="assets/img/team/CslsLogo.jpg" alt=""> --}}
+{{-- ======= --}}
               <img src="{{asset('assets/img/logo/logo.jpg')}}" alt="">
-             <h1 class="d-flex align-items-center">Csls</h1>
+{{-- >>>>>>> df7d843779561ea80001e1882ae9b3a6a5f075b6 --}}
+             {{-- <h1 class="d-flex align-items-center">Csls</h1> --}}
          </a>
 
          <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -15,11 +19,11 @@
              <ul>
                  <li><a href="{{route('home')}}" class="active">{{ __('lang.home') }}</a></li>
                  <li><a href="{{ route('about') }}">{{ __('lang.about') }}</a></li>
-                 <li><a href="{{ route('service') }}">Services</a></li>
-                 <li><a href="portfolio.html">Portfolio</a></li>
-                 <li><a href="{{ route('team') }}">{{ __('lang.team') }}</a></li>
-                 <li><a href="blog.html">Blog</a></li>
-                 <li><a href="{{ route('contact') }}">Contact</a></li>
+                 <li><a href="{{ route('service') }}">{{__('lang.services')}}</a></li>
+                 <li><a href="{{route('news')}}">{{__('lang.yangiliklar')}}</a></li>
+                 {{-- <li><a href="{{ route('team') }}">{{ __('lang.team') }}</a></li> --}}
+                 {{-- <li><a href="blog.html">Blog</a></li> --}}
+                 <li><a href="{{ route('contact') }}">{{__('lang.contact')}}</a></li>
                  <li class="dropdown"><a href="#"><span>
                              @if (session()->has('lang') && session()->get('lang'))
                                  {{ Str::upper(session()->get('lang')) }}
