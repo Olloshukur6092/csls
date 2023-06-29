@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ServiceController;
@@ -33,7 +34,14 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 Route::get('/team', [TeamController::class, 'index'])->name('team');
 
-Route::controller(ContactController::class)->group(function() {
+Route::controller(ContactController::class)->group(function () {
     Route::get('/contact', 'index')->name('contact');
     Route::post('/contact', 'sendMessage')->name('sendMessage');
+});
+Route::controller(AuthController::class)->group(function () {
+    Route::get('admin/login', 'create')->name('login');
+    Route::post('admin/login', 'login')->name('admin');
+});
+Route::get('admin/dashboard', function () {
+    return view('admin.dashboard');
 });
