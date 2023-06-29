@@ -42,11 +42,11 @@
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+                Toshkent sh,  <br>
+                Mirzo-Ulug'bek tumani,<br>
+                Xuroson ko'chasi 35/14 <br><br>
+              <strong>Phone:</strong> +998 94 132 52 00<br>
+              <strong>Email:</strong> info@csls.uz<br>
             </p>
 
           </div>

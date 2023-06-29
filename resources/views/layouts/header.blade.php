@@ -2,9 +2,9 @@
  <header id="header" class="header d-flex align-items-center fixed-top">
      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-         <a href="index.html" class="logo d-flex align-items-center">
+         <a href="{{route('home')}}" class="logo d-flex align-items-center">
              <!-- Uncomment the line below if you also wish to use an image logo -->
-             <!-- <img src="assets/img/logo.png" alt=""> -->
+             <img src="assets/img/team/CslsLogo.jpg" alt="">
              <h1 class="d-flex align-items-center">Csls</h1>
          </a>
 
