@@ -4,7 +4,7 @@
 
          <a href="index.html" class="logo d-flex align-items-center">
              <!-- Uncomment the line below if you also wish to use an image logo -->
-             <!-- <img src="assets/img/logo.png" alt=""> -->
+              <img src="{{asset('assets/img/logo/logo.jpg')}}" alt="">
              <h1 class="d-flex align-items-center">Csls</h1>
          </a>
 
@@ -13,12 +13,13 @@
 
          <nav id="navbar" class="navbar">
              <ul>
-                 <li><a href="index.html" class="active">{{ __('lang.home') }}</a></li>
+                 <li><a href="{{route('home')}}" class="active">{{ __('lang.home') }}</a></li>
                  <li><a href="{{ route('about') }}">{{ __('lang.about') }}</a></li>
                  <li><a href="{{ route('service') }}">Services</a></li>
                  <li><a href="portfolio.html">Portfolio</a></li>
                  <li><a href="{{ route('team') }}">{{ __('lang.team') }}</a></li>
                  <li><a href="blog.html">Blog</a></li>
+                 <li><a href="{{ route('contact') }}">Contact</a></li>
                  <li class="dropdown"><a href="#"><span>
                              @if (session()->has('lang') && session()->get('lang'))
                                  {{ Str::upper(session()->get('lang')) }}
@@ -45,7 +46,6 @@
 
                      </ul>
                  </li>
-                 <li><a href="{{ route('contact') }}">Contact</a></li>
              </ul>
          </nav><!-- .navbar -->
 
