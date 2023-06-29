@@ -14,12 +14,11 @@
                         <p>{{ __('lang.paragraph_home_yurist') }}</p>
                     </blockquote>
                     <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-                        <a href="{{ Route('about') }}" class="btn-get-started">Boshlash</a>
-                        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+                        <a href="{{ Route('about') }}" class="btn-get-started">{{__('lang.Boshlash')}}</a>
+                        <a href="https://youtu.be/nu4KNJVCZqA"
                             class="glightbox btn-watch-video d-flex align-items-center"><i
-                                class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                                class="bi bi-play-circle"></i><span>{{__('lang.watch_video')}}</span></a>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -32,7 +31,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Why Choose Us</h2>
+                    <h2>{{__('lang.Why_Choose_Us')}}</h2>
 
                 </div>
 
@@ -108,7 +107,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Our Services</h2>
+                    <h2>{{__('lang.bizning_xizmatlar')}}</h2>
 
                 </div>
 

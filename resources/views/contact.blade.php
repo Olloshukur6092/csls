@@ -38,7 +38,7 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h4>Email:</h4>
-                                <p>consultingservices@gmail.com</p>
+                                <p>info@csls.uz</p>
                             </div>
                         </div><!-- End Info Item -->
 
