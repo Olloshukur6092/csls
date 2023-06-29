@@ -8,7 +8,7 @@ About page
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/about-header.jpg');">
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/about/galery.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center">
 
         <h2>About</h2>
@@ -67,35 +67,39 @@ About page
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">Let's grow your business together</h3>
-                    <h4 class="mb-3">Optio reiciendis accusantium iusto architecto at quia minima maiores quidem, dolorum.</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
+                    <h3 class="mb-3">IshonchliYuridik yordam</h3>
+                    <h4 class="mb-3">Malakali yuristlar xizmatidan onlayn foydalaning.</h4>
+                    <p>
+                        Malakali yurist maslahati zarur vaziyatga duch keldingizmi?
+                        Qayerdan yurist topishni bilmayapsiz yoki konsultatsiyaga borishga vaqtingiz yo'qmi?
+                        Normativ hujjatlardan javob topishga harakat qildingiz ammo amaliy tajribaga mos tushadigan javob topaolmadingizmi?
+                    </p>
                   </div>
                 </div><!-- End slide item -->
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">Unde perspiciatis ut repellat dolorem</h3>
-                    <h4 class="mb-3">Amet cumque nam sed voluptas doloribus iusto. Dolorem eos aliquam quis.</h4>
-                    <p>Dolorem quia fuga consectetur voluptatem. Earum consequatur nulla maxime necessitatibus cum accusamus. Voluptatem dolorem ut numquam dolorum delectus autem veritatis facilis. Et ea ut repellat ea. Facere est dolores fugiat dolor.</p>
+                    <h3 class="mb-3">O'zbekistonning eng yaxshi yurist va advokatlari javob beradilar.</h3>
+                    <h4 class="mb-3">Hoziroq savol bering</h4>
+                    <p>Yechimi oddiy: Professional advokatlar xizmatidan yuridik.uz yordamida onlayn foydalaning. Xizmatimiz sizni qanoatlantirmasa, pulingizni qaytarib beramiz</p>
                   </div>
                 </div><!-- End slide item -->
 
-                <div class="swiper-slide">
+                {{-- <div class="swiper-slide">
                   <div class="item">
                     <h3 class="mb-3">Aliquid non alias minus</h3>
                     <h4 class="mb-3">Necessitatibus voluptatibus explicabo dolores a vitae voluptatum.</h4>
                     <p>Neque voluptates aut. Soluta aut perspiciatis porro deserunt. Voluptate ut itaque velit. Aut consectetur voluptatem aspernatur sequi sit laborum. Voluptas enim dolorum fugiat aut.</p>
                   </div>
-                </div><!-- End slide item -->
+                </div><!-- End slide item --> --}}
 
-                <div class="swiper-slide">
+                {{-- <div class="swiper-slide">
                   <div class="item">
                     <h3 class="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
                     <h4 class="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est. Eum similique neque autem ut.</h4>
                     <p>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</p>
                   </div>
-                </div><!-- End slide item -->
+                </div><!-- End slide item --> --}}
 
               </div>
               <div class="swiper-pagination"></div>
@@ -136,7 +140,7 @@ About page
 
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
-              <div class="member-img">
+              {{-- <div class="member-img">
                 <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -144,11 +148,11 @@ About page
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
-              </div>
-              <div class="member-info">
+              </div> --}}
+              {{-- <div class="member-info">
                 <h4>Walter White</h4>
                 <span>Chief Executive Officer</span>
-              </div>
+              </div> --}}
             </div>
           </div><!-- End Team Member -->
 
@@ -192,7 +196,7 @@ About page
 
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member">
-              <div class="member-img">
+              {{-- <div class="member-img">
                 <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -200,12 +204,12 @@ About page
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
-              </div>
-              <div class="member-info">
+              </div> --}}
+              {{-- <div class="member-info">
                 <h4>Amanda Jepson</h4>
                 <span>Accountant</span>
               </div>
-            </div>
+            </div> --}}
           </div><!-- End Team Member -->
 
         </div>

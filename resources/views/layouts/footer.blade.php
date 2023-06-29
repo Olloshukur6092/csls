@@ -8,7 +8,7 @@
             <a href="{{ route('home') }}" class="logo d-flex align-items-center">
               <span>Csls</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>Malakali yuristlar xizmatidan onlayn foydalaning. Xizmatlar kafolatlanadi. Hoziroq savol bering, O'zbekistonning eng yaxshi yurist va advokatlari javob beradilar.</p>
             <div class="social-links d-flex  mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>

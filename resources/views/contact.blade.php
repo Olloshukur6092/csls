@@ -49,11 +49,8 @@
                                 <p>(94) 132 52 00</p>
                             </div>
                         </div><!-- End Info Item -->
-
                     </div>
-
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-
                         <form action="{{ route('sendMessage') }}" method="post" role="form" class="php-email-form">
                             @csrf
                             <div class="row">
@@ -81,7 +78,7 @@
                         </form>
 
                     </div><!-- End Contact Form -->
-
+                
                 </div>
 
             </div>

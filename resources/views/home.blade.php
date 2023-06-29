@@ -37,7 +37,7 @@
 
                 <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
 
-                    <div class="col-xl-5 img-bg" style="background-image: url('assets/img/why-us-bg.jpg')"></div>
+                    <div class="col-xl-5 img-bg" style="background-image: url('assets/img/about/right.jpg')"></div>
                     <div class="col-xl-7 slides  position-relative">
 
                         <div class="slides-1 swiper">
@@ -48,7 +48,7 @@
                                         <h3 class="mb-3">Let's grow your business together</h3>
                                         <h4 class="mb-3">Optio reiciendis accusantium iusto architecto at quia minima
                                             maiores quidem, dolorum.</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam
+                                        <p>Lorem ipsum dolor sit amet consecte8tur adipisicing elit. Repellendus, ipsam
                                             perferendis asperiores explicabo vel tempore velit totam, natus nesciunt
                                             accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis
                                             dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.
