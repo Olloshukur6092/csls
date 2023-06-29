@@ -495,8 +495,9 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/about/advokat.jpg") top center;
   background-size: cover;
+  background-position: center center;
   position: relative;
   padding: 120px 0;
   z-index: 3;
