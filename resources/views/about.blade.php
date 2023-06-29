@@ -67,7 +67,7 @@ About page
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">IshonchliYuridik yordam</h3>
+                    <h3 class="mb-3">Ishonchli Yuridik yordam</h3>
                     <h4 class="mb-3">Malakali yuristlar xizmatidan onlayn foydalaning.</h4>
                     <p>
                         Malakali yurist maslahati zarur vaziyatga duch keldingizmi?
@@ -83,7 +83,8 @@ About page
                     <h4 class="mb-3">Hoziroq savol bering</h4>
                     <p>Yechimi oddiy: Professional advokatlar xizmatidan yuridik.uz yordamida onlayn foydalaning. Xizmatimiz sizni qanoatlantirmasa, pulingizni qaytarib beramiz</p>
                   </div>
-                </div><!-- End slide item -->
+                </div>
+                <!-- End slide item -->
 
                 {{-- <div class="swiper-slide">
                   <div class="item">
