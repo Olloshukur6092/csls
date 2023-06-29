@@ -8,8 +8,15 @@
             <div class="col-md-4 offset-md-4">
                 @if (session('error'))
                     <div class="alert alert-danger">
-                        <p>{{ session('error') }}</p>
+                        <span>{{ session('error') }}</span>
                     </div>
+                @endif
+                @if (count($errors) > 0)
+                    @foreach ($errors->all() as $error)
+                        <div class="alert alert-danger">
+                            <span>{{ $error }}</span>
+                        </div>
+                    @endforeach
                 @endif
                 <div class="card card-body border-0 shadow-lg p-4">
                     <h4 class="text-center mb-4">Admin | Login</h4>
@@ -17,7 +24,7 @@
                         @csrf
                         <div class="form-group mb-3">
                             <label for="login">Login</label>
-                            <input type="text" id="login" name="login" class="form-control mt-2" />
+                            <input type="text" id="login" name="login"  class="form-control mt-2" />
                         </div>
                         <div class="form-group mb-3">
                             <label for="login">Parol</label>

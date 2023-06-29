@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
 Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'index')->name('home');
     Route::get('/lang', 'lang')->name('lang');
@@ -37,9 +38,16 @@ Route::controller(ContactController::class)->group(function () {
 Route::controller(AuthController::class)->group(function () {
     Route::get('admin/login', 'create')->name('login');
     Route::post('admin/login', 'login')->name('admin');
+    Route::get('logout', 'logout')->name('logout');
 });
 Route::get('admin/dashboard', function () {
+    if (!session()->get('admin')) {
+        return redirect()->route('login');
+    }
     return view('admin.dashboard');
 });
+Route::controller(NewsController::class)->group(function () {
 
-Route::get('/news', [NewsController::class, 'index'])->name('news');
+    Route::get('/news', 'index')->name('news');
+    Route::get('/admin/news', 'admin_news')->name('admin.news');
+});
