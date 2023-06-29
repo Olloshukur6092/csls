@@ -3,6 +3,7 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
@@ -37,3 +38,5 @@ Route::controller(ContactController::class)->group(function() {
     Route::get('/contact', 'index')->name('contact');
     Route::post('/contact', 'sendMessage')->name('sendMessage');
 });
+
+Route::get('/news', [NewsController::class, 'index'])->name('news');

@@ -29,7 +29,7 @@
                         <div class="info-item d-flex">
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
-                                <h4>Location:</h4>
+                                <h4>{{__('lang.location')}}:</h4>
                                 <p>Toshkent sh, Mirzo-Ulug'bek tumani, Xuroson ko'chasi 35/14</p>
                             </div>
                         </div><!-- End Info Item -->

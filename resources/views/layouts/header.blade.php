@@ -19,11 +19,11 @@
              <ul>
                  <li><a href="{{route('home')}}" class="active">{{ __('lang.home') }}</a></li>
                  <li><a href="{{ route('about') }}">{{ __('lang.about') }}</a></li>
-                 <li><a href="{{ route('service') }}">Services</a></li>
-                 <li><a href="portfolio.html">Portfolio</a></li>
-                 <li><a href="{{ route('team') }}">{{ __('lang.team') }}</a></li>
-                 <li><a href="blog.html">Blog</a></li>
-                 <li><a href="{{ route('contact') }}">Contact</a></li>
+                 <li><a href="{{ route('service') }}">{{__('lang.services')}}</a></li>
+                 <li><a href="{{route('news')}}">{{__('lang.yangiliklar')}}</a></li>
+                 {{-- <li><a href="{{ route('team') }}">{{ __('lang.team') }}</a></li> --}}
+                 {{-- <li><a href="blog.html">Blog</a></li> --}}
+                 <li><a href="{{ route('contact') }}">{{__('lang.contact')}}</a></li>
                  <li class="dropdown"><a href="#"><span>
                              @if (session()->has('lang') && session()->get('lang'))
                                  {{ Str::upper(session()->get('lang')) }}
