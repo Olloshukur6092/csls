@@ -33,4 +33,7 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 Route::get('/team', [TeamController::class, 'index'])->name('team');
 
-Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::controller(ContactController::class)->group(function() {
+    Route::get('/contact', 'index')->name('contact');
+    Route::post('/contact', 'sendMessage')->name('sendMessage');
+});
