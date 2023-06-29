@@ -30,13 +30,11 @@ About page
           </div>
           <div class="col-lg-8">
             <div class="content ps-lg-5">
-              <h3>Bizning Jamoa haqida</h3>
-              <p>
-                Malakali yuristlar xizmatidan onlayn foydalaning. Xizmatlar kafolatlanadi.
-                Hoziroq savol bering, O'zbekistonning eng yaxshi yurist va advokatlari javob beradilar.
+              <h3>{{__('lang.bizning_jamoa_haqida')}}</h3>
+              <p>{{__('lang.malakali')}}
             </p>
               <ul>
-                <li><i class="bi bi-check-circle-fill"></i> Круглосуточная юридическая помощь.</li>
+                <li><i class="bi bi-check-circle-fill"></i> {{__('lang.kunduzgi_yordam')}}</li>
                 <li><i class="bi bi-check-circle-fill"></i> Личный юрист.</li>
                 <li><i class="bi bi-check-circle-fill"></i> Правовой анализ любых жизненных случаев.</li>
                 <li><i class="bi bi-check-circle-fill"></i> Быстрое составление правовых документов.</li>
@@ -70,9 +68,11 @@ About page
                     <h3 class="mb-3">Ishonchli Yuridik yordam</h3>
                     <h4 class="mb-3">Malakali yuristlar xizmatidan onlayn foydalaning.</h4>
                     <p>
-                        Malakali yurist maslahati zarur vaziyatga duch keldingizmi?
+                        {{__('lang.malakali_yurist')}}
+                        {{-- Malakali yurist maslahati zarur vaziyatga duch keldingizmi?
                         Qayerdan yurist topishni bilmayapsiz yoki konsultatsiyaga borishga vaqtingiz yo'qmi?
-                        Normativ hujjatlardan javob topishga harakat qildingiz ammo amaliy tajribaga mos tushadigan javob topaolmadingizmi?
+                        Normativ hujjatlardan javob topishga harakat qildingiz ammo amaliy tajribaga mos tushadigan javob topaolmadingizmi? --}}
+
                     </p>
                   </div>
                 </div><!-- End slide item -->

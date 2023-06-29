@@ -161,8 +161,7 @@
                         </div>
                         <div>
                             <h4 class="title"><a href="#" class="stretched-link">Xujjatlarni Huquqiy ekspertizadan o'tkazish</a></h4>
-                            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero
-                                tempore, cum soluta nobis est eligendi</p>
+                            <p class="description"></p>
                         </div>
                     </div><!-- End Service Item -->
 
@@ -176,10 +175,9 @@
             <div class="container" data-aos="fade-up">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
-                        <h3>Ut fugiat aliquam aut non</h3>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                        <a class="cta-btn" href="#">Call To Action</a>
+                        <h3>{{__('lang.abd')}}</h3>
+                        <p>{{__('lang.expertlar')}}.</p>
+                        <a class="cta-btn" href="#">{{__('lang.boglanish')}}Call To Action</a>
                     </div>
                 </div>
 
