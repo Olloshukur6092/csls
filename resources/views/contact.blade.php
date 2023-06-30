@@ -29,7 +29,7 @@
                         <div class="info-item d-flex">
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
-                                <h4>{{__('lang.location')}}:</h4>
+                                <h4>{{ __('lang.location') }}:</h4>
                                 <p>Toshkent sh, Mirzo-Ulug'bek tumani, Xuroson ko'chasi 35/14</p>
                             </div>
                         </div><!-- End Info Item -->
@@ -51,6 +51,20 @@
                         </div><!-- End Info Item -->
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+                        <div class="my-3">
+                            @if (count($errors) > 0)
+                                @foreach ($errors->all() as $item)
+                                    <div class="alert alert-danger">
+                                        <span>{{ $error }}</span>
+                                    </div>
+                                @endforeach
+                            @endif
+                            @if (session('success'))
+                                <div class="alert alert-success">
+                                    <span>{{ session('success') }}</span>
+                                </div>
+                            @endif
+                        </div>
                         <form action="{{ route('sendMessage') }}" method="post" role="form" class="php-email-form">
                             @csrf
                             <div class="row">
@@ -66,19 +80,12 @@
                             <div class="form-group mt-3">
                                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                             </div>
-                            <div class="my-3">
-                                @if (session('error'))
-                                    <div class="message-error">{{ session('error') }}</div>
-                                @endif
-                                @if (session('success'))
-                                    <div class="message-sent">{{ session('success') }}</div>
-                                @endif
-                            </div>
+
                             <div class="text-center"><button type="submit">Send Message</button></div>
                         </form>
 
                     </div><!-- End Contact Form -->
-                
+
                 </div>
 
             </div>

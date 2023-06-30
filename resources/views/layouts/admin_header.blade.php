@@ -6,7 +6,10 @@
                 <a class="nav-link" href="{{ url('/admin/dashboard') }}">Dashboard</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('admin.news') }}">News</a>
+                <a class="nav-link" href="{{ route('admin.news') }}">Yangiliklar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('show.messages') }}">Xabarlar</a>
             </li>
             <li class="nav-item">
                 <a href="{{ route('logout') }}" class="btn btn-dark px-3 py-2 ms-4">Chiqish</a>

@@ -34,6 +34,7 @@ Route::get('/team', [TeamController::class, 'index'])->name('team');
 Route::controller(ContactController::class)->group(function () {
     Route::get('/contact', 'index')->name('contact');
     Route::post('/contact', 'sendMessage')->name('sendMessage');
+    Route::get('/show-messages', 'showMessages')->name('show.messages');
 });
 Route::controller(AuthController::class)->group(function () {
     Route::get('admin/login', 'create')->name('login');
