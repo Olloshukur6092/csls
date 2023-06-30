@@ -35,9 +35,9 @@ About page
             </p>
               <ul>
                 <li><i class="bi bi-check-circle-fill"></i> {{__('lang.kunduzgi_yordam')}}</li>
-                <li><i class="bi bi-check-circle-fill"></i> Личный юрист.</li>
-                <li><i class="bi bi-check-circle-fill"></i> Правовой анализ любых жизненных случаев.</li>
-                <li><i class="bi bi-check-circle-fill"></i> Быстрое составление правовых документов.</li>
+                <li><i class="bi bi-check-circle-fill"></i> {{__('lang.Shaxsiy_advokat')}}</li>
+                <li><i class="bi bi-check-circle-fill"></i>{{__('lang.harqanday')}} </li>
+                <li><i class="bi bi-check-circle-fill"></i> {{__('lang.tez_tayyorlash')}}</li>
               </ul>
             </div>
           </div>
@@ -51,7 +51,7 @@ About page
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Why Choose Us</h2>
+          <h2>{{__('lang.Why_Choose_Us')}}</h2>
 
         </div>
 
@@ -65,8 +65,8 @@ About page
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">Ishonchli Yuridik yordam</h3>
-                    <h4 class="mb-3">Malakali yuristlar xizmatidan onlayn foydalaning.</h4>
+                    <h3 class="mb-3">{{__('lang.ishonchli_yuridik')}}</h3>
+                    <h4 class="mb-3">{{__('lang.malakali_yuristlar')}}.</h4>
                     <p>
                         {{__('lang.malakali_yurist')}}
                         {{-- Malakali yurist maslahati zarur vaziyatga duch keldingizmi?
@@ -79,9 +79,9 @@ About page
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">O'zbekistonning eng yaxshi yurist va advokatlari javob beradilar.</h3>
-                    <h4 class="mb-3">Hoziroq savol bering</h4>
-                    <p>Yechimi oddiy: Professional advokatlar xizmatidan yuridik.uz yordamida onlayn foydalaning. Xizmatimiz sizni qanoatlantirmasa, pulingizni qaytarib beramiz</p>
+                    <h3 class="mb-3">{{__('lang.eng_yaxshi_yurist')}}.</h3>
+                    <h4 class="mb-3">{{__('lang.hoziroqSavol')}}</h4>
+                    <p>{{__('lang.YechimOddiy')}}</p>
                   </div>
                 </div>
                 <!-- End slide item -->
@@ -119,9 +119,8 @@ About page
       <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
-            <h3>Biroz qochish yoki xozr qo'ng'iroq qilish</h3>
-            <p>Bizning expertlar bilan xoziroq bog'laning.</p>
-            <a class="cta-btn" href="#">Harakatga chaqirish</a>
+            <h3>{{__('lang.biroz_qochish')}}.</p>
+            <a class="cta-btn" href="https://web.telegram.org/a/#1816929200">Harakatga chaqirish</a>
           </div>
         </div>
 

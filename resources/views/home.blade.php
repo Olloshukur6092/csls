@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
-
+                    
                     <div class="col-xl-5 img-bg" style="background-image: url('assets/img/about/right.jpg')"></div>
                     <div class="col-xl-7 slides  position-relative">
 
@@ -177,7 +177,7 @@
                     <div class="col-lg-6 text-center">
                         <h3>{{__('lang.abd')}}</h3>
                         <p>{{__('lang.expertlar')}}.</p>
-                        <a class="cta-btn" href="#">{{__('lang.boglanish')}}Call To Action</a>
+                        <a class="cta-btn" href="#">{{__('lang.boglanish')}}</a>
                     </div>
                 </div>
 
@@ -190,63 +190,63 @@
             <div class="container" data-aos="fade-up">
                 <div class="row">
                     <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-                        <h3>Powerful Features for <br>Your Business</h3>
+                        <h3>  Yurist xizmati turlari <br>Siz uchun</h3>
 
                         <div class="row gy-4">
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-store-line" style="color: #ffbb2c;"></i>
-                                    <span>Easy Cart Features</span>
+                                    <span>Deklarantlik</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-                                    <span>Sit amet consectetur adipisicing</span>
+                                    <span>Patentlash tovar belgisini ro'yxatdan o'tkazish</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-                                    <span>Ipsum Rerum Explicabo</span>
+                                    <span>Yuristlarimiz xizmati</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-                                    <span>Easy Cart Features</span>
+                                    <span>Qarz undirish xizmatlari</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-database-2-line" style="color: #47aeff;"></i>
-                                    <span>Easy Cart Features</span>
+                                    <span>Doimiy huquqiy ximoyalash xizmatlari</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-                                    <span>Sit amet consectetur adipisicing</span>
+                                    <span>Ariza, shikoyat xati, davo arizasi, apellatsiya, kassasiya yozib berish</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-                                    <span>Ipsum Rerum Explicabo</span>
+                                    <span>Shartnomalar tuzib berish konsultatsiya berish</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-base-station-line" style="color: #ff5828;"></i>
-                                    <span>Easy Cart Features</span>
+                                    <span>Firma ochish ruyhatdan utkazish ustav nizom yaratish</span>
                                 </div>
                             </div><!-- End Icon List Item-->
                         </div>
@@ -265,9 +265,8 @@
                     <div class="row">
                         <div class="col-md-6">
                             <h4>Labore Sdio Lidui<br>Bonde Naruto</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nostrum molestias
-                                doloremque quae delectus odit minima corrupti blanditiis quo animi!</p>
-                            <a href="#about" class="btn-get-started">Get Started</a>
+                            <p></p>
+                            <a href="tel:+998975288899" class="btn-get-started">Yurist bilan bog'lanish</a>
                         </div>
                     </div>
 
@@ -277,6 +276,7 @@
         </section><!-- End Features Section -->
 
         <!-- ======= Recent Blog Posts Section ======= -->
+{{--
         <section id="recent-posts" class="recent-posts">
             <div class="container" data-aos="fade-up">
 
@@ -354,7 +354,121 @@
                 </div>
 
             </div>
-        </section><!-- End Recent Blog Posts Section -->
+        </section> --}}
+
+        <main id="main">
+            <!-- ======= Breadcrumbs ======= -->
+            <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/news/news_banner.webp');">
+                <div class="container position-relative d-flex flex-column align-items-center">
+
+                    <h2>News</h2>
+                    <ol>
+                        <li><a href="{{ route('home') }}">Home</a></li>
+                        <li>News</li>
+                    </ol>
+
+                </div>
+            </div><!-- End Breadcrumbs -->
+            <!-- ======= Recent Blog Posts Section ======= -->
+            <section id="recent-posts" class="recent-posts">
+                <div class="container" data-aos="fade-up">
+
+                    <div class="section-header">
+                        <h2>Kun Yangiliklari</h2>
+
+                    </div>
+
+                    <div class="row gy-5">
+                        @php
+                            $news = [
+                                'news1' => 'Toshkent jamoat transporti uchun Humo plastik kartasidan qilingan to‘lovlar bir necha bor
+                                    qayta yechib olingan yoki bloklangan holatlari uchramoqda. ATTO hamda Humo rahbarlari texnik
+                                    nosozlik sabab shunday vaziyat yuzaga kelayotganini ma’lum qildi.',
+                                'news2' => 'Prigojin Rossiya armiyasi mag‘lubiyatga uchrayotganini aytgandi. Amalda esa Ukrainaning
+                                    muvaffaqiyatlari hali ham juda kamtarona.',
+                                'news3' => 'Prezident o‘zbekistonlik mehnat muhojirlarining qahramonligini e’tirof etdi. Suv mavzusi kun
+                                    tartibiga chiqmoqda. Yangihayotning Yangi Darxonidagi yangi uyda lift quladi. Milliard
+                                    so‘mni talon-toroj qilgan amaldor lavozimiga qaytdi va shov-shuvdan keyin yana bo‘shatildi.
+                                    Ortda qolayotgan haftaning shu va boshqa xabarlari – Kun.uz dayjestida.',
+                                'news4' => 'O‘zLiDePdan prezidentlikka nomzod Shavkat Mirziyoyev qashqadaryolik saylovchilar bilan
+                                    uchrashuvda xorijdagi yurtdoshlarimizni qo‘llab-quvvatlashga oid rejalarni ma’lum qildi,
+                                    deya xabar bermoqda Kun.uz muxbiri.',
+                            ];
+                        @endphp
+                        <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="post-box">
+                                <div class="post-img"><img src="assets/img/news/about.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="meta">
+                                    <span class="post-date">14:39 / 26.06.2023</span>
+                                    <span class="post-author"> / KUN.UZ</span>
+                                </div>
+                                <h3 class="post-title">Avtobus va metroga Humo kartasi orqali to‘lov qilishda muammo paydo
+                                    bo‘ldi - buning sababi nimada?</h3>
+                                <p>{{ Str::substr($news['news1'], 0, 140) }}...</p>
+                                <a href="https://kun.uz/uz/news/2023/06/26/avtobus-va-metroga-humo-kartasi-orqali-tolov-qilishda-muammo-paydo-boldi-buning-sababi-nimada"
+                                    class="readmore stretched-link" target="_blank"><span>Batafsil</span><i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <div class="post-box">
+                                <div class="post-img"><img src="assets/img/news/2.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="meta">
+                                    <span class="post-date">14:36 / 26.06.2023</span>
+                                    <span class="post-author"> / KUN.UZ</span>
+                                </div>
+                                <h3 class="post-title">Frontdagi vaziyat: Prigojinning isyoni Rossiyaning Ukrainadagi
+                                    harakatlariga ta’sir ko‘rsatmagan</h3>
+                                <p>{{ Str::substr($news['news2'], 0, 140) }}...</p>
+                                <a href="https://kun.uz/uz/news/2023/06/26/frontdagi-vaziyat-prigojinning-isyoni-rossiyaning-ukrainadagi-harakatlariga-tasir-korsatmagan"
+                                    class="readmore stretched-link" target="_blank"><span>Batafsil</span><i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="post-box">
+                                <div class="post-img"><img src="assets/img/news/3.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="meta">
+                                    <span class="post-date">18:45 / 25.06.2023</span>
+                                    <span class="post-author"> / KUN.UZ</span>
+                                </div>
+                                <h3 class="post-title">E’tirof etilgan migrantlar, Qo‘shtepa kanaliga munosabat va Navoiydagi
+                                    kambek - hafta dayjesti</h3>
+                                <p>{{ Str::substr($news['news3'], 0, 140) }}...</p>
+                                <a href="https://kun.uz/uz/news/2023/06/25/etirof-etilgan-migrantlar-qoshtepa-kanaliga-munosabat-va-navoiydagi-kambek-hafta-dayjesti"
+                                    class="readmore stretched-link" target="_blank"><span>Batafsil</span><i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                            <div class="post-box">
+                                <div class="post-img"><img src="{{ asset('assets/img/news/4.jpg') }}" class="img-fluid"
+                                        alt=""></div>
+                                <div class="meta">
+                                    <span class="post-date">13:58 / 23.06.2023</span>
+                                    <span class="post-author"> / KUN.UZ</span>
+                                </div>
+                                <h3 class="post-title">Xorijda mehnat qilayotgan o‘zbekistonliklar haqiqiy qahramon - Shavkat
+                                    Mirziyoyev</h3>
+                                <p>{{ Str::substr($news['news4'], 0, 140) }}...</p>
+                                <a href="https://kun.uz/uz/news/2023/06/23/xorijda-mehnat-qilayotgan-ozbekistonliklar-haqiqiy-qahramon-shavkat-mirziyoyev"
+                                    class="readmore stretched-link" target="_blank"><span>Batafsil</span><i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section><!-- End Recent Blog Posts Section -->
+        </main>
+        <!-- End Recent Blog Posts Section -->
 
     </main><!-- End #main -->
 @endsection
