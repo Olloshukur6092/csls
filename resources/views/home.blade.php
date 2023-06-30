@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
-
+                    
                     <div class="col-xl-5 img-bg" style="background-image: url('assets/img/about/right.jpg')"></div>
                     <div class="col-xl-7 slides  position-relative">
 
@@ -177,7 +177,7 @@
                     <div class="col-lg-6 text-center">
                         <h3>{{__('lang.abd')}}</h3>
                         <p>{{__('lang.expertlar')}}.</p>
-                        <a class="cta-btn" href="#">{{__('lang.boglanish')}}Call To Action</a>
+                        <a class="cta-btn" href="#">{{__('lang.boglanish')}}</a>
                     </div>
                 </div>
 
@@ -190,63 +190,63 @@
             <div class="container" data-aos="fade-up">
                 <div class="row">
                     <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-                        <h3>Powerful Features for <br>Your Business</h3>
+                        <h3>  Yurist xizmati turlari <br>Siz uchun</h3>
 
                         <div class="row gy-4">
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-store-line" style="color: #ffbb2c;"></i>
-                                    <span>Easy Cart Features</span>
+                                    <span>Deklarantlik</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-                                    <span>Sit amet consectetur adipisicing</span>
+                                    <span>Patentlash tovar belgisini ro'yxatdan o'tkazish</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-                                    <span>Ipsum Rerum Explicabo</span>
+                                    <span>Yuristlarimiz xizmati</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-                                    <span>Easy Cart Features</span>
+                                    <span>Qarz undirish xizmatlari</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-database-2-line" style="color: #47aeff;"></i>
-                                    <span>Easy Cart Features</span>
+                                    <span>Doimiy huquqiy ximoyalash xizmatlari</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-                                    <span>Sit amet consectetur adipisicing</span>
+                                    <span>Ariza, shikoyat xati, davo arizasi, apellatsiya, kassasiya yozib berish</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-                                    <span>Ipsum Rerum Explicabo</span>
+                                    <span>Shartnomalar tuzib berish konsultatsiya berish</span>
                                 </div>
                             </div><!-- End Icon List Item-->
 
                             <div class="col-md-6">
                                 <div class="icon-list d-flex">
                                     <i class="ri-base-station-line" style="color: #ff5828;"></i>
-                                    <span>Easy Cart Features</span>
+                                    <span>Firma ochish ruyhatdan utkazish ustav nizom yaratish</span>
                                 </div>
                             </div><!-- End Icon List Item-->
                         </div>
@@ -265,9 +265,8 @@
                     <div class="row">
                         <div class="col-md-6">
                             <h4>Labore Sdio Lidui<br>Bonde Naruto</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nostrum molestias
-                                doloremque quae delectus odit minima corrupti blanditiis quo animi!</p>
-                            <a href="#about" class="btn-get-started">Get Started</a>
+                            <p></p>
+                            <a href="tel:+998975288899" class="btn-get-started">Yurist bilan bog'lanish</a>
                         </div>
                     </div>
 

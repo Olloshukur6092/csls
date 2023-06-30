@@ -8,7 +8,7 @@
             <a href="{{ route('home') }}" class="logo d-flex align-items-center">
               <span>Csls</span>
             </a>
-            <p>Malakali yuristlar xizmatidan onlayn foydalaning. Xizmatlar kafolatlanadi. Hoziroq savol bering, O'zbekistonning eng yaxshi yurist va advokatlari javob beradilar.</p>
+            <p>{{__('lang.footer')}}</p>
             <div class="social-links d-flex  mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -18,32 +18,31 @@
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>{{__('lang.linklar')}}</h4>
             <ul>
-              <li><i class="bi bi-dash"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-dash"></i> <a href="{{route('home')}}">{{ __('lang.home') }}</a></li>
+              <li><i class="bi bi-dash"></i> <a href="{{route('about')}}">{{ __('lang.about') }}</a></li>
+              <li><i class="bi bi-dash"></i> <a href="{{route('service')}}">{{__('lang.services')}}</a></li>
+
             </ul>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
+            {{-- <h4>Our Services</h4>
             <ul>
               <li><i class="bi bi-dash"></i> <a href="#">Web Design</a></li>
               <li><i class="bi bi-dash"></i> <a href="#">Web Development</a></li>
               <li><i class="bi bi-dash"></i> <a href="#">Product Management</a></li>
               <li><i class="bi bi-dash"></i> <a href="#">Marketing</a></li>
               <li><i class="bi bi-dash"></i> <a href="#">Graphic Design</a></li>
-            </ul>
+            </ul> --}}
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
                 Toshkent sh,  <br>
-                Mirzo-Ulug'bek tumani,<br>
+              {{__('lang.rayon')}}  <br>
                 Xuroson ko'chasi 35/14 <br><br>
               <strong>Phone:</strong> +998 94 132 52 00<br>
               <strong>Email:</strong> info@csls.uz<br>
