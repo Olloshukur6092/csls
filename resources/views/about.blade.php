@@ -20,24 +20,25 @@ About page
       </div>
     </div><!-- End Breadcrumbs -->
 
-    <!-- ======= About Section ======= -->
+    <!-- ======= About Section ======= -->                  
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="row gy-4" data-aos="fade-up">
           <div class="col-lg-4">
-            <img src="assets/img/about/right.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/adjastergai.jpg"
+             class="img-fluid" alt=""> 
           </div>
           <div class="col-lg-8">
             <div class="content ps-lg-5">
-              <h3>{{__('lang.bizning_jamoa_haqida')}}</h3>
+              <h3>{{__('lang.bizning_jamoa_haqida')}}</h3>           
               <p>{{__('lang.malakali')}}
             </p>
               <ul>
-                <li><i class="bi bi-check-circle-fill"></i> {{__('lang.kunduzgi_yordam')}}</li>
-                <li><i class="bi bi-check-circle-fill"></i> {{__('lang.Shaxsiy_advokat')}}</li>
-                <li><i class="bi bi-check-circle-fill"></i>{{__('lang.harqanday')}} </li>
-                <li><i class="bi bi-check-circle-fill"></i> {{__('lang.tez_tayyorlash')}}</li>
+                <li><i class="bi bi-check-circle-fill"></i> 24/7 xodimlarimiz aloqada </li>
+                <li><i class="bi bi-check-circle-fill"></i>Evroprotokol</li>
+                <li><i class="bi bi-check-circle-fill"></i>Sug'urta pulini undirib berish
+                <li><i class="bi bi-check-circle-fill"></i>Avtobaxolash</li>
               </ul>
             </div>
           </div>
@@ -57,7 +58,8 @@ About page
 
         <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/about/31galery.jpg')"></div>
+          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/team/adjaster.jpg')"> </div>
+
           <div class="col-xl-7 slides  position-relative">
 
             <div class="slides-1 swiper">
@@ -159,7 +161,7 @@ About page
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/Abbosbek.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/11.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -168,7 +170,7 @@ About page
                 </div>
               </div>
               <div class="member-info">
-                <h4>Abbosbek Yo'ldoshev</h4>
+                <h4>Jamoa</h4>
                 <span>{{__('lang.yurist')}}</span>
               </div>
             </div>
@@ -177,7 +179,7 @@ About page
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/Kamron.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/11.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -186,7 +188,7 @@ About page
                 </div>
               </div>
               <div class="member-info">
-                <h4>Kamron</h4>
+                <h4>Jamoa</h4>
                 <span>{{__('lang.yurist')}}</span>
               </div>
             </div>

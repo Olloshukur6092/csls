@@ -30,7 +30,7 @@
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
                                 <h4>{{ __('lang.location') }}:</h4>
-                                <p>Toshkent sh, Mirzo-Ulug'bek tumani, Xuroson ko'chasi 35/14</p>
+                                <p>Toshkent sh., Sofdil koʻchasi, 40-uy (Indeks)</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -38,7 +38,7 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h4>Email:</h4>
-                                <p>info@csls.uz</p>
+                                <p>info@adjaster.uz</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -46,7 +46,7 @@
                             <i class="bi bi-phone flex-shrink-0"></i>
                             <div>
                                 <h4>Call:</h4>
-                                <p>(94) 132 52 00</p>
+                                <p>+998 77 095 0007</p>
                             </div>
                         </div><!-- End Info Item -->
                     </div>
@@ -93,9 +93,13 @@
         <section id="map">
             <div class="container">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47931.96965927916!2d69.26793412220403!3d41.33609056162945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4431777da7b%3A0x289db26806f061e!2z0JzQuNGA0LfQvi3Qo9C70YPQs9Cx0LXQutGB0LrQuNC5INGA0LDQudC-0L0sINCi0LDRiNC60LXQvdGCLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1688002101586!5m2!1sru!2s"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.762295844287!2d69.23294707666446!3d41.20515564778666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae611ec23b0bf5%3A0x6757dfd12763b5a4!2zNjY0UCs2NDgsIFNhZmRpbCBTdHJlZXQgMjAzNiwgMTAwMTIzLCDQotC-c2hrZW50LCBUb3Noa2VudCwg0KPQt9Cx0LXQutC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1742017531755!5m2!1sru!2s"
                     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
+                {{-- <iframe
+                    src="https://maps.app.goo.gl/w8UMXVsdNPbSA2E5A"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
             </div>
         </section>
     </main><!-- End #main -->

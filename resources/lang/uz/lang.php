@@ -7,20 +7,20 @@ return [
     'services' => 'Xizmatlar',
     'contact' => "Aloqa",
     'yangiliklar' => "Yangiliklar",
-    'paragraph_home_yurist' => 'Malakali yuristlar xizmatidan onlayn foydalaning. Xizmatlar kafolatlanadi. Hoziroq savol bering,
-    O\'zbekistonning eng yaxshi yurist va advokatlari javob beradilar.',
+    'paragraph_home_yurist' => 'Adjaster.uz Yevropa avtohalokatlari haqida hisobotlarni tayyorlashda sizning ishonchli yordamchingizdir.
+     Siz bilan yo\'l transport sodir bo\'lganida ushbu telefon raqamiga murojat qiling! 24/7' ,
     //home page
     'Why_Choose_Us' => "Nega bizni tanlaysiz",
     'watch_video' => "Videoni tomosha qiling",
-    'Boshlash' => "Boshlash",
+    'Boshlash' => "Bog'lanish",
     'abd' => "Biroz qochish yoki xozr qo'ng'iroq qilish",
     'expertlar' =>"Bizning expertlar bilan xoziroq bog'laning",
     'boglanish' => "Harakatga chaqirish",
     'malakali_yurist' => "Malakali yurist maslahati zarur vaziyatga duch keldingizmi?
     Qayerdan yurist topishni bilmayapsiz yoki konsultatsiyaga borishga vaqtingiz yo'qmi?
     Normativ hujjatlardan javob topishga harakat qildingiz ammo amaliy tajribaga mos tushadigan javob topaolmadingizmi?",
-    'malakali' => "  Malakali yuristlar xizmatidan onlayn foydalaning. Xizmatlar kafolatlanadi.
-    Hoziroq savol bering, O'zbekistonning eng yaxshi yurist va advokatlari javob beradilar.",
+    'malakali' => " Adjaster.uz Yevropa avtohalokatlari haqida hisobotlarni tayyorlashda sizning ishonchli yordamchingizdir. 
+    Biz yo'l-transport hodisasini hal qilish jarayonini sodda va qulay qilamiz. Qo'shimcha ma'lumot olish uchun bugun biz bilan bog'laning!",
     'bizning_jamoa_haqida' => "Bizning jamoa haqida",
     'kunduzgi_yordam' => "Kunduzi yuridik yordam",
     'Shaxsiy_advokat.' => "Shaxsiy advokat.",
@@ -28,9 +28,10 @@ return [
     //*
     'ishonchli_yuridik' => "Ishonchli Yuridik yordam",
     'malakali_yuristlar' => "Malakali yuristlar xizmatidan onlayn foydalaning",
-    'eng_yaxshi_yurist' => "O'zbekistonning eng yaxshi yurist va advokatlari javob beradilar",
+    'eng_yaxshi_yurist' => "O'zbekistonning eng yaxshi Avto Xizmatlar",
     'hoziroqSavol' => "Hoziroq savol bering",
-    'YechimOddiy' => "Yechimi oddiy: Professional advokatlar xizmatidan yuridik.uz yordamida onlayn foydalaning. Xizmatimiz sizni qanoatlantirmasa, pulingizni qaytarib beramiz",
+    'YechimOddiy' => "Yechimi oddiy: Professional xodimlar
+      xizmatidan adjaster.uz   yordamida  onlayn foydalaning. Xizmatimiz sizni qanoatlantirmasa, pulingizni qaytarib beramiz",
     'biroz_qochish' => "Biroz qochish yoki xozr qo'ng'iroq qilish
     Bizning expertlar bilan xoziroq bog'laning",
     //contact
@@ -50,6 +51,6 @@ return [
     //footer
     'Barcha_huquqlar_himoyalangan' => "Barcha huquqlar himoyalangan",
     'Website_developed_by' => "Tomonidan Ishlab chiqilgan veb-sayt",
-    'footer' => "INTERLEX yuridik firmasi o‘z mijozlariga biznesni tashkil etish va yuritish muammolari bo‘yicha keng ko‘lamli yuridik xizmatlarni taklif qilishga, o‘zbek, rus va ingliz tillarida maslahatlar berishga tayyor.",
+    'footer' => "Adjaster.uz Yevropa avtohalokatlari haqida hisobotlarni tayyorlashda sizning ishonchli yordamchingizdir. Biz yo'l-transport hodisasini hal qilish jarayonini sodda va qulay qilamiz. Qo'shimcha ma'lumot olish uchun bugun biz bilan bog'laning!",
     'linklar' => "Foydali havolalar"
 ];

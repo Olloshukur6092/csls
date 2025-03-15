@@ -20,9 +20,9 @@
                     <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
                         <div>
-                            <h4 class="title"><a href="#" class="stretched-link">Firma ochish ruyhatdan utkazish ustav nizom yaratish</a></h4>
+                            <h4 class="title"><a href="#" class="stretched-link">Avtotransport xizmati</a></h4>
                             <p class="description">
-                                Korhonalardag ichki hujjatlarni tartibga solish
+                                Evroprotokol
                             </p>
                         </div>
                     </div>
@@ -31,8 +31,8 @@
                     <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
                         <div>
-                            <h4 class="title"><a href="#" class="stretched-link">Patentlash tovar belgisini ro'yxatdan o'tkazish</a></h4>
-                            <p class="description">Ariza, shikoyat xati, davo arizasi, apellatsiya, kassasiya yozib berish.
+                            <h4 class="title"><a href="#" class="stretched-link">Avtosug'urta</a></h4>
+                            <p class="description">cheklangan , cheklanmagan
                             </p>
                         </div>
                     </div><!-- End Service Item -->

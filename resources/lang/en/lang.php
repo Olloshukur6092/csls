@@ -7,8 +7,8 @@ return [
     'contact' => "Contacts",
     'team' => 'Team',
     'yangiliklar' => "News",
-    'paragraph_home_yurist' => 'Use the services of qualified lawyers online. Services are guaranteed. Ask a question now
-    The best lawyers and lawyers of Uzbekistan will answer.',
+    'paragraph_home_yurist' => 'Adjuster.uz is your reliable assistant in preparing reports on European car accidents.
+    If you have been involved in a traffic accident, please call this phone number! 24/7',
 
     //home page
     'Why_Choose_Us' => "Why Choose Us",
@@ -20,7 +20,7 @@ return [
     'malakali' => "Use the services of qualified lawyers online. Services are guaranteed.
     Ask a question now, the best lawyers and attorneys in Uzbekistan will answer you.",
     'bizning_jamoa_haqida' => "About our team",
-    'kunduzgi_yordam' => "",
+    'kunduzgi_yordam' => "24/7 yordam ",
     //services
     'bizning_xizmatlar' => "Our Services",
     //contact
@@ -44,6 +44,6 @@ return [
         //footer
     'Barcha_huquqlar_himoyalangan' => "All rights reserved",
     'Website_developed_by' => "Website developed by",
-    'footer' => "Law firm INTERLEX is ready to offer its clients a wide range of legal services on the problems of organizing and running a business, providing consultations in Uzbek, Russian and English.",
+    'footer' => "Adjuster.uz is your trusted partner in preparing European car accident reports. We make the process of settling a road accident simple and convenient. Contact us today for more information.",
     'linklar' => "Useful Links"
 ];

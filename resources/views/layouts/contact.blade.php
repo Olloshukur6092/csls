@@ -111,8 +111,17 @@
             <div class="info-item d-flex">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h4>Location:</h4>
-                <p>Toshkent sh, Mirzo-Ulug'bek tumani, Xuroson ko'chasi 35/14</p>
+                <h4>Bizning ofislarimiz</h4>
+                Toshkent sh., Sofdil koʻchasi, 40-uy (Indeks)
+                Toshkent sh., Chilonzor tumani, 2-kvartal, 69-uy
+                Toshkent sh., Mirobod tumani, Yangi Quyliq ko‘chasi, 3-uy
+                Xorazm filiali
+                Surxondaryo filiali
+                Kontaktlar
+                +998 78 120 0007
+                +998 77 095 0007
+                24/7
+                <p>Toshkent sh., Sofdil koʻchasi, 40-uy (Indeks)</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -120,7 +129,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4>Email:</h4>
-                <p>info@csls.uz</p>
+                <p>info@adjaster.uz</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -128,7 +137,8 @@
               <i class="bi bi-phone flex-shrink-0"></i>
               <div>
                 <h4>Call:</h4>
-                <p>+998 94 132 52 00</p>
+                <p>+998 78 120 0007</p>
+                <p>+998 78 120 0007</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -213,10 +223,11 @@
             <h4>Contact Us</h4>
             <p>
                 Toshkent sh, <br>
-                Mirzo-Ulug'bek tumani,<br>
-                Xuroson ko'chasi 35/14 <br><br>
-              <strong>Phone:</strong> +998 94 132 52 00<br>
-              <strong>Email:</strong> info@csls.uz<br>
+                <br>
+                Sofdil koʻchasi, 40-uy (Indeks) <br><br>
+                <strong>Phone:</strong> +998 78 120 0007<br>
+                <strong>Phone:</strong> +998 77 095 0007<br>
+              <strong>Email:</strong> info@adjaster.uz<br>
             </p>
           </div>
         </div>
@@ -233,7 +244,7 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nova-bootstrap-business-template/ -->
-          Designed by <a href="https://infinityinnovation.uz/">infinityinnovation</a>
+          Designed by <a href="https://infinityinnovation.uz/">Adjaster.uz</a>
         </div>
       </div>
     </div>

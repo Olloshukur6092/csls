@@ -7,7 +7,7 @@
 {{-- <<<<<<< HEAD --}}
              {{-- <img src="assets/img/team/CslsLogo.jpg" alt=""> --}}
 {{-- ======= --}}
-              <img src="{{asset('assets/img/logo/logo.jpg')}}" alt="">
+              <img src="{{asset('assets/img/logo/logo.PNG')}}" alt="">
 {{-- >>>>>>> df7d843779561ea80001e1882ae9b3a6a5f075b6 --}}
              {{-- <h1 class="d-flex align-items-center">Csls</h1> --}}
          </a>
