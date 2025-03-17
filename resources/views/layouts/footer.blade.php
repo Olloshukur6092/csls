@@ -15,7 +15,9 @@
                class="facebook"><i class="bi bi-facebook"></i></a>
               <a href="https://www.instagram.com/adjaster.uz/" class="instagram"><i class="bi bi-instagram"></i></a>
               <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-              <a href="" class="telegram"> <i class=""> </i> </a>
+              <a href="https://t.me/Adjasteruz" class="telegram"> <i class="bi bi-telegram"></i>
+              
+              </a>
             </div>
           </div>
 

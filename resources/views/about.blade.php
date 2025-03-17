@@ -8,7 +8,7 @@ About page
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/about/galery.jpg');">
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/about/Evroprotocol.webp');">
       <div class="container position-relative d-flex flex-column align-items-center">
 
         <h2>About</h2>
@@ -163,7 +163,7 @@ About page
               <div class="member-img">
                 <img src="assets/img/team/11.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href="https://t.me/Myinsurance_005"><i class="bi bi-telegram"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
@@ -179,17 +179,17 @@ About page
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/11.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/rustam.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href="https://t.me/Myinsurance_005"><i class="bi bi-telegram"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Jamoa</h4>
-                <span>{{__('lang.yurist')}}</span>
+                <h4>Rustam</h4>
+                <span>{{__('lang.marketolog')}}</span>
               </div>
             </div>
           </div>

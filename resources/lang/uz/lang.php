@@ -37,7 +37,8 @@ return [
     //contact
     'location' => "Manzili",
     'rayon' =>"Mirzo-Ulug'bek tumani",
-
+   //Team
+   'marketolog' => "Marketolog",
    //our services
      'bizning_xizmatlar' => "Bizning xizmatlar",
    //about

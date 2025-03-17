@@ -49,7 +49,7 @@
                             <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="meta">
-                                <span class="post-date">14:39 / 26.06.2023</span>
+                                <span class="post-date">14:39 / 26.06.2024</span>
                                 <span class="post-author"> / KUN.UZ</span>
                             </div>
                             <h3 class="post-title">Avtobus va metroga Humo kartasi orqali to‘lov qilishda muammo paydo
@@ -66,7 +66,7 @@
                             <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="meta">
-                                <span class="post-date">14:36 / 26.06.2023</span>
+                                <span class="post-date">14:36 / 26.06.2024</span>
                                 <span class="post-author"> / KUN.UZ</span>
                             </div>
                             <h3 class="post-title">Frontdagi vaziyat: Prigojinning isyoni Rossiyaning Ukrainadagi

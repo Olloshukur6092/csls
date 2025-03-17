@@ -17,8 +17,8 @@ return [
     'abd' => "A bit of escapism or not",
     'expertlar' => "Contact our experts now",
     'boglanish' => "Call To Action",
-    'malakali' => "Use the services of qualified lawyers online. Services are guaranteed.
-    Ask a question now, the best lawyers and attorneys in Uzbekistan will answer you.",
+    'malakali' => "Adjuster.uz is your reliable assistant in preparing reports on European car accidents.
+        We make the process of settling a road accident simple and convenient. Contact us today for more information!",
     'bizning_jamoa_haqida' => "About our team",
     'kunduzgi_yordam' => "24/7 yordam ",
     //services

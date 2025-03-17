@@ -37,7 +37,7 @@
 
                 <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
                     
-                    <div class="col-xl-5 img-bg" style="background-image: url('assets/img/about/right.jpg')"></div>
+                    <div class="col-xl-5 img-bg" style="background-image: url('assets/img/about/logo.png')"></div>
                     <div class="col-xl-7 slides  position-relative">
 
                         <div class="slides-1 swiper">
@@ -248,7 +248,8 @@
                     </div>
                     <div class="col-lg-5 position-relative" data-aos="fade-up" data-aos-delay="200">
                         <div class="phone-wrap">
-                            <img src="assets/img/iphone.png" alt="Image" class="img-fluid">
+                            {{-- <img src="assets/img/iphone.png" alt="Image" class="img-fluid"> --}}
+                            <img src="assets/img/about/adjuster_image.png" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -378,10 +379,9 @@
                                 'news1' => ' Avtohalokatga uchragandan keyin Yetkazilgan zararni qoplab berish xizmati',
                                 'news2' => 'Yevroprotokol - bu tan jaroxati bilan bog\'liq bo\'lmagan yo\'l transport hodisasini YPX xodimining ishtirokisiz,
                                  ikkala tarafning kelishuvi asosida rasmiylashtirish tushiniladi.',
-                                'news3' => 'Adjaster uz jarima moshinagizni jarima maydoniga qo\'yilishini oldini oladi' ,
-                                'news4' => 'O‘zLiDePdan prezidentlikka nomzod Shavkat Mirziyoyev qashqadaryolik saylovchilar bilan
-                                    uchrashuvda xorijdagi yurtdoshlarimizni qo‘llab-quvvatlashga oid rejalarni ma’lum qildi,
-                                    deya xabar bermoqda Kun.uz muxbiri.',
+                                'news3' => 'Yevroprotokol - bu tan jaroxati bilan bog\'liq bo\'lmagan yo\'l transport hodisasini YPX xodimining ishtirokisiz,
+                                 ikkala tarafning kelishuvi asosida rasmiylashtirish tushiniladi.' ,
+                                'news4' => 'Adjaster uz jarima moshinagizni jarima maydoniga qo\'yilishini oldini oladi.',
                             ];
                         @endphp
                         <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -419,7 +419,7 @@
 
                         <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
                             <div class="post-box">
-                                 <div class="post-img"><img src="{{ asset('assets/img/team/5555.JPG')
+                                 <div class="post-img"><img src="{{ asset('assets/img/news/news2.png')
                                  }}"
                                      class="img-fluid" alt="">
                                 </div>
@@ -427,7 +427,7 @@
                                     <span class="post-date">18:45 / 25.06.2024</span>
                                     <span class="post-author"> / KUN.UZ</span>
                                 </div>
-                                <h3 class="post-title"> GAI chaqrmasdan Ajaster uz orqali muammoni xal qilishdi 
+                                <h3 class="post-title"> Yevroprotokol nima ? Uni tuzish tartibi va shartlari qanday 
 
                                      <h3>
                                 <p>{{ Str::substr($news['news3'], 0, 140) }}...</p>
@@ -439,16 +439,15 @@
 
                         <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
                             <div class="post-box">
-                                <div class="post-img"><img src="{{ asset('assets/img/team/55.JPG')
+                                <div class="post-img"><img src="{{ asset('assets/img/team/5555.JPG')
                                  }}"
                                      class="img-fluid"
                                         alt=""></div>
                                 <div class="meta">
-                                    <span class="post-date">13:58 / 23.06.2024</span>
-                                    <span class="post-author"> / KUN.UZ</span>
+                                    <span class="post-date">13:58 / 25.06.2024</span>
+                                    <span class="post-author"> / Adjaster</span>
                                 </div>
-                                <h3 class="post-title">Xorijda mehnat qilayotgan o‘zbekistonliklar haqiqiy qahramon - Shavkat
-                                    Mirziyoyev</h3>
+                                <h3 class="post-title">GAI chaqrmasdan Ajaster uz orqali muammoni xal qilishdi </h3>
                                 <p>{{ Str::substr($news['news4'], 0, 140) }}...</p>
                                 <a href="https://kun.uz/uz/news/2023/06/23/xorijda-mehnat-qilayotgan-ozbekistonliklar-haqiqiy-qahramon-shavkat-mirziyoyev"
                                     class="readmore stretched-link" target="_blank"><span>Batafsil</span><i
